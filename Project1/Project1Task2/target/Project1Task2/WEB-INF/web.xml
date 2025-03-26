@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+  <servlet>
+    <servlet-name>ClickerServlet</servlet-name>
+    <servlet-class>controller.ClickerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClickerServlet</servlet-name>
+    <url-pattern>/submit</url-pattern>
+    <url-pattern>/getResults</url-pattern>
+  </servlet-mapping>
+</web-app>
